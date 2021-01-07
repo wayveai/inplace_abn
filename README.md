@@ -1,3 +1,10 @@
+# Wayve notes
+
+Build the wheel with the following
+```
+CC=/usr/bin/gcc-7 CXX=/usr/bin/g++-7 python setup.py bdist_wheel
+```
+
 # In-Place Activated BatchNorm
 
 [**In-Place Activated BatchNorm for Memory-Optimized Training of DNNs**](https://arxiv.org/abs/1712.02616)
