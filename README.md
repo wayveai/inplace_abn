@@ -2,7 +2,7 @@
 
 Build the wheel with the following
 ```
-CC=/usr/bin/gcc-7 CXX=/usr/bin/g++-7 python setup.py bdist_wheel
+env CUDA_HOME="/usr/local/cuda-11.0" TORCH_CUDA_ARCH_LIST="6.1 7.0 7.5 8.0" python3 setup.py build bdist_wheel
 ```
 
 # In-Place Activated BatchNorm
