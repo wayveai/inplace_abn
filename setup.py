@@ -69,7 +69,7 @@ setuptools.setup(
     setup_requires=["setuptools_scm"],
     python_requires=">=3, <4",
     install_requires=[
-       'torch @ https://wayve-data.s3.eu-west-2.amazonaws.com/public/installers/torch-1.7.1-cp37-cp37m-linux_x86_64-cuda-11.0.3-cudnn8-intel-mkl-2020.4-912.whl#egg=torch-1.7.1'
+       'torch @ https://wayve-data.s3.eu-west-2.amazonaws.com/public/installers/torch-1.8.1-cp37-cp37m-linux_x86_64-cuda-11.0.3-cudnn8-intel-mkl-2020.4-912.whl#egg=torch-1.8.1'
     ],
     # Package description
     packages=["inplace_abn"],
