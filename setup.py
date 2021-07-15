@@ -68,7 +68,9 @@ setuptools.setup(
     # Requirements
     setup_requires=["setuptools_scm"],
     python_requires=">=3, <4",
-
+    install_requires=[
+       'torch @ https://wayve-data.s3.eu-west-2.amazonaws.com/public/installers/torch-1.9.0-0.py37.cuda110.mkl202004912.py3-none-manylinux2014_x86_64.whl#egg=torch-1.9.0'
+    ],
     # Package description
     packages=["inplace_abn"],
     ext_modules=ext_modules,

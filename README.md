@@ -1,3 +1,10 @@
+# Wayve notes
+
+Build the wheel with the following
+```
+env CUDA_HOME="/usr/local/cuda-11.0" TORCH_CUDA_ARCH_LIST="6.1 7.0 7.5 8.0" python3 setup.py build bdist_wheel
+```
+
 # In-Place Activated BatchNorm
 
 [**In-Place Activated BatchNorm for Memory-Optimized Training of DNNs**](https://arxiv.org/abs/1712.02616)
